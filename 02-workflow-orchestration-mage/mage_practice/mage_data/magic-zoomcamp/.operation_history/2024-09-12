@@ -1,0 +1,2 @@
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "test_config_with_mage"}, "timestamp": 1726179955, "user": null}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "api_to_postgres"}, "timestamp": 1726180656, "user": null}
