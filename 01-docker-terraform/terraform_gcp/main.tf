@@ -33,4 +33,5 @@ resource "google_storage_bucket" "terra-demo-bucket" {
 resource "google_bigquery_dataset" "terra-demo-dataset" {
   dataset_id = var.bq_dataset_name
   location   = var.location
+  delete_contents_on_destroy = true
 }
